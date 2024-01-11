@@ -1,0 +1,50 @@
+{
+    "-543273179": {
+        "editor_type": "modifier_all", 
+        "index_type": "object_editor", 
+        "item_key": 134271250, 
+        "prop_key": "desc"
+    }, 
+    "-479478620": {
+        "editor_type": "ability_all", 
+        "index_type": "object_editor", 
+        "item_key": 134267576, 
+        "prop_key": "name"
+    }, 
+    "-456939281": {
+        "editor_type": "editor_unit", 
+        "index_type": "object_editor", 
+        "item_key": 134247006, 
+        "prop_key": "desc"
+    }, 
+    "122322095": {
+        "editor_type": "modifier_all", 
+        "index_type": "object_editor", 
+        "item_key": 134244265, 
+        "prop_key": "name"
+    }, 
+    "393768782": {
+        "editor_type": "ability_all", 
+        "index_type": "object_editor", 
+        "item_key": 134267576, 
+        "prop_key": "desc"
+    }, 
+    "830762925": {
+        "editor_type": "editor_unit", 
+        "index_type": "object_editor", 
+        "item_key": 134247006, 
+        "prop_key": "name"
+    }, 
+    "1044137560": {
+        "editor_type": "ability_all", 
+        "index_type": "object_editor", 
+        "item_key": 134228042, 
+        "prop_key": "desc"
+    }, 
+    "1169034692": {
+        "editor_type": "ability_all", 
+        "index_type": "object_editor", 
+        "item_key": 134228042, 
+        "prop_key": "name"
+    }
+}

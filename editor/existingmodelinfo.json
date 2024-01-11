@@ -1,0 +1,42 @@
+[
+ {
+  "__tuple__": true, 
+  "items": [
+   2, 
+   "\u9ca8\u9c7c\u6218\u58eb", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   3, 
+   "\u865a\u7a7a\u866b", 
+   4
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   4, 
+   "\u865a\u7a7a\u866b", 
+   4
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   5, 
+   "\u865a\u7a7a\u866b", 
+   4
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   9999, 
+   "\u521d\u59cb\u955c\u5934", 
+   32768
+  ]
+ }
+]
