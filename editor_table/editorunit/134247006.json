@@ -3,6 +3,10 @@
     "1": 1, 
     "5": 1, 
     "6": 0, 
+    "102": 0, 
+    "104": 500, 
+    "107": 0, 
+    "108": 100, 
     "_custom_": true, 
     "_ref_": 134247006, 
     "affect_techs": {
@@ -42,7 +46,7 @@
     "billboard_name_font": "DFPYuanW7-GB", 
     "billboard_scale_x": 1, 
     "billboard_scale_y": 1, 
-    "blood_bar": 327681, 
+    "blood_bar": 65537, 
     "blood_show_type": 0, 
     "body_size": 1.0, 
     "build_res_cost_list": {
@@ -53,7 +57,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "can_flee": true, 
+    "can_flee": false, 
     "cancel_alarm_range": 30.0, 
     "cd_reduce": 0.0, 
     "cd_reduce_grow": 0.0, 
@@ -128,7 +132,7 @@
     "hit_rate_grow": 0.0, 
     "hp_max": 1000.0, 
     "hp_max_grow": 100.0, 
-    "hp_rec": 10, 
+    "hp_rec": 0.0, 
     "hp_rec_grow": 1, 
     "icon": 132294, 
     "idle_anim": "idle1", 
@@ -146,7 +150,41 @@
     "keep_dead_body_time": 0.0, 
     "keep_target": true, 
     "key": 134247006, 
-    "kv": {}, 
+    "kv": {
+        "CriticalHit": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "CriticalHit", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 0, 
+            "type": 0, 
+            "value": "attack3"
+        }, 
+        "NormalAttack1": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "NormalAttack1", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 1, 
+            "type": 0, 
+            "value": "attack1"
+        }, 
+        "NormalAttack2": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "NormalAttack2", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 2, 
+            "type": 0, 
+            "value": "attack2"
+        }
+    }, 
     "level": 1, 
     "main_attr": "strength", 
     "max_stock": 5, 

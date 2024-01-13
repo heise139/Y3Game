@@ -36,7 +36,6 @@
                                     42.28572082519531
                                 ], 
                                 "children": [], 
-                                "comp_anims": [], 
                                 "event_list": [], 
                                 "font": {
                                     "__tuple__": true, 
@@ -98,7 +97,6 @@
                                     0.0
                                 ], 
                                 "children": [], 
-                                "comp_anims": [], 
                                 "event_list": [], 
                                 "image": 133819, 
                                 "name": "dead", 
@@ -120,7 +118,6 @@
                                 "type": 4
                             }
                         ], 
-                        "comp_anims": [], 
                         "event_list": [], 
                         "name": "btn", 
                         "normal_picture": 108536, 
@@ -154,7 +151,6 @@
                         ], 
                         "bg_image": 133829, 
                         "children": [], 
-                        "comp_anims": [], 
                         "event_list": [], 
                         "image": 133828, 
                         "name": "hp", 
@@ -195,7 +191,6 @@
                         ], 
                         "bg_image": 133829, 
                         "children": [], 
-                        "comp_anims": [], 
                         "event_list": [], 
                         "image": 133830, 
                         "name": "mp", 
@@ -224,7 +219,6 @@
                         "type": 5
                     }
                 ], 
-                "comp_anims": [], 
                 "event_list": [], 
                 "image": 133831, 
                 "name": "hero", 

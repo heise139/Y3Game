@@ -1,4 +1,10 @@
 {
+    "-2005352455": {
+        "editor_type": "editor_unit", 
+        "index_type": "object_editor", 
+        "item_key": 134226151, 
+        "prop_key": "name"
+    }, 
     "-543273179": {
         "editor_type": "modifier_all", 
         "index_type": "object_editor", 
@@ -46,5 +52,11 @@
         "index_type": "object_editor", 
         "item_key": 134228042, 
         "prop_key": "name"
+    }, 
+    "2135430140": {
+        "editor_type": "editor_unit", 
+        "index_type": "object_editor", 
+        "item_key": 134226151, 
+        "prop_key": "desc"
     }
 }

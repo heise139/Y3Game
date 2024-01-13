@@ -1,8 +1,68 @@
 {
-    "local_variable": {}, 
+    "local_variable": {
+        "622485506": {
+            "variable_dict": {
+                "INTEGER": {
+                    "skillLevel": 1
+                }
+            }, 
+            "variable_length_dict": {
+                "skillLevel": 0
+            }
+        }, 
+        "1060057091": {
+            "variable_dict": {
+                "INTEGER": {}
+            }, 
+            "variable_length_dict": {}
+        }
+    }, 
     "trigger_dict": {
         "622485506": {
             "action": [
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                [
+                                    "INTEGER", 
+                                    "skillLevel", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100014, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100076, 
+                                            "args_list": [], 
+                                            "sub_type": "CUR_MODIFIER"
+                                        }
+                                    ], 
+                                    "sub_type": "RELATED_ABILITY"
+                                }, 
+                                {
+                                    "arg_type": 100079, 
+                                    "args_list": [
+                                        "ability_level"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_ABILITY_INT_ATTR"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 622485506530008, 
+                    "enable": true
+                }, 
                 {
                     "action_type": "ADD_ATTR", 
                     "args_list": [
@@ -84,21 +144,22 @@
                                     "arg_type": 100000, 
                                     "args_list": [
                                         {
-                                            "arg_type": 100039, 
+                                            "arg_type": 100011, 
                                             "args_list": [
-                                                {
-                                                    "arg_type": 100014, 
-                                                    "args_list": [
-                                                        {
-                                                            "arg_type": 100076, 
-                                                            "args_list": [], 
-                                                            "sub_type": "CUR_MODIFIER"
-                                                        }
-                                                    ], 
-                                                    "sub_type": "RELATED_ABILITY"
-                                                }
+                                                "d08a0169-b686-4c90-a6fe-6eab62881d2b"
                                             ], 
-                                            "sub_type": "ABILITY_NAME_OF_ABILITY"
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                [
+                                                    "INTEGER", 
+                                                    "skillLevel", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 6
                                         }, 
                                         {
                                             "arg_type": 100003, 
@@ -108,14 +169,14 @@
                                             "sub_type": 1
                                         }
                                     ], 
-                                    "sub_type": "GET_FLOAT_KV"
+                                    "sub_type": "GET_FLOAT_TABLE_VAR_ND"
                                 }
                             ], 
                             "sub_type": "ARITHMETIC_OPERATION"
                         }
                     ], 
                     "bp": false, 
-                    "element_id": 622485506530006, 
+                    "element_id": 11761131530002, 
                     "enable": true
                 }
             ], 
@@ -139,6 +200,49 @@
         "1060057091": {
             "action": [
                 {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                [
+                                    "INTEGER", 
+                                    "skillLevel", 
+                                    "actor"
+                                ]
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100014, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100076, 
+                                            "args_list": [], 
+                                            "sub_type": "CUR_MODIFIER"
+                                        }
+                                    ], 
+                                    "sub_type": "RELATED_ABILITY"
+                                }, 
+                                {
+                                    "arg_type": 100079, 
+                                    "args_list": [
+                                        "ability_level"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_ABILITY_INT_ATTR"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 622485506530008, 
+                    "enable": true
+                }, 
+                {
                     "action_type": "ADD_ATTR", 
                     "args_list": [
                         {
@@ -219,21 +323,22 @@
                                     "arg_type": 100000, 
                                     "args_list": [
                                         {
-                                            "arg_type": 100039, 
+                                            "arg_type": 100011, 
                                             "args_list": [
-                                                {
-                                                    "arg_type": 100014, 
-                                                    "args_list": [
-                                                        {
-                                                            "arg_type": 100076, 
-                                                            "args_list": [], 
-                                                            "sub_type": "CUR_MODIFIER"
-                                                        }
-                                                    ], 
-                                                    "sub_type": "RELATED_ABILITY"
-                                                }
+                                                "d08a0169-b686-4c90-a6fe-6eab62881d2b"
                                             ], 
-                                            "sub_type": "ABILITY_NAME_OF_ABILITY"
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                [
+                                                    "INTEGER", 
+                                                    "skillLevel", 
+                                                    "actor"
+                                                ]
+                                            ], 
+                                            "sub_type": 6
                                         }, 
                                         {
                                             "arg_type": 100003, 
@@ -243,7 +348,7 @@
                                             "sub_type": 1
                                         }
                                     ], 
-                                    "sub_type": "GET_FLOAT_KV"
+                                    "sub_type": "GET_FLOAT_TABLE_VAR_ND"
                                 }
                             ], 
                             "sub_type": "ARITHMETIC_OPERATION"
@@ -268,7 +373,7 @@
             "group_id": 134244265, 
             "p_trigger_id": null, 
             "trigger_id": 1060057091, 
-            "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668", 
+            "trigger_name": "AddMore", 
             "valid": true
         }, 
         "1176113153": {
@@ -358,21 +463,22 @@
                                     "arg_type": 100000, 
                                     "args_list": [
                                         {
-                                            "arg_type": 100039, 
+                                            "arg_type": 100011, 
                                             "args_list": [
-                                                {
-                                                    "arg_type": 100014, 
-                                                    "args_list": [
-                                                        {
-                                                            "arg_type": 100076, 
-                                                            "args_list": [], 
-                                                            "sub_type": "CUR_MODIFIER"
-                                                        }
-                                                    ], 
-                                                    "sub_type": "RELATED_ABILITY"
-                                                }
+                                                "d08a0169-b686-4c90-a6fe-6eab62881d2b"
                                             ], 
-                                            "sub_type": "ABILITY_NAME_OF_ABILITY"
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                [
+                                                    "INTEGER", 
+                                                    "skillLevel", 
+                                                    "actor"
+                                                ]
+                                            ], 
+                                            "sub_type": 6
                                         }, 
                                         {
                                             "arg_type": 100003, 
@@ -382,7 +488,7 @@
                                             "sub_type": 1
                                         }
                                     ], 
-                                    "sub_type": "GET_FLOAT_KV"
+                                    "sub_type": "GET_FLOAT_TABLE_VAR_ND"
                                 }
                             ], 
                             "sub_type": "ARITHMETIC_OPERATION"
@@ -425,7 +531,7 @@
                 ], 
                 [
                     1060057091, 
-                    "\u65b0\u5efa\u89e6\u53d1\u5668"
+                    "AddMore"
                 ]
             ], 
             "key": 134244265, 
@@ -433,7 +539,18 @@
         }
     ], 
     "trigger_version": "1.2", 
-    "variable_dict": {}, 
-    "variable_group_info": [], 
-    "variable_length_dict": {}
+    "variable_dict": {
+        "INTEGER": {
+            "skillLevel": 1
+        }
+    }, 
+    "variable_group_info": [
+        [
+            "skillLevel", 
+            "skillLevel"
+        ]
+    ], 
+    "variable_length_dict": {
+        "skillLevel": 0
+    }
 }

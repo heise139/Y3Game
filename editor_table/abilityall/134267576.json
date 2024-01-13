@@ -50,7 +50,7 @@
         ]
     }, 
     "ability_icon": 100872, 
-    "ability_max_level": 1, 
+    "ability_max_level": 5, 
     "ability_max_stack_count": {
         "__tuple__": true, 
         "items": [
@@ -174,17 +174,6 @@
     "is_toggle": false, 
     "key": 134267576, 
     "kv": {
-        "BreakArmor": {
-            "annotation": "", 
-            "desc": "", 
-            "etype": 2, 
-            "key": "BreakArmor", 
-            "prop_cls": "PFloat", 
-            "remark": "", 
-            "sort": 1, 
-            "type": 1, 
-            "value": 0.1
-        }, 
         "CriticalHit": {
             "annotation": "", 
             "desc": "", 
@@ -203,7 +192,7 @@
             "key": "NormalAttack", 
             "prop_cls": "PText", 
             "remark": "", 
-            "sort": 2, 
+            "sort": 1, 
             "type": 0, 
             "value": "attack"
         }
@@ -234,10 +223,13 @@
     "release_immediately_out_of_range": false, 
     "required_level": {
         "formula": "", 
-        "required_levels": {
-            "__tuple__": true, 
-            "items": []
-        }
+        "required_levels": [
+            1, 
+            2, 
+            3, 
+            4, 
+            5
+        ]
     }, 
     "reward_official_res_1": 0.0, 
     "sector_angle": {
